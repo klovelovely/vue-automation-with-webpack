@@ -1,0 +1,19 @@
+{
+  "name": "eartharbor-fh-college-ivu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --host 192.168.152.33 --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "Kavalon <klovelovely@live.com> (http://mar.moe)",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "style-loader": "^0.19.0",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.9.3"
+  }
+}
